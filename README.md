@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/b3b43c1bb823788fe2c1a.jpg">
+  <img src="https://telegra.ph/file/66c17e679a90c1caf555b.jpg">
 </p>
 
 # NagatoUzumakiRobot
