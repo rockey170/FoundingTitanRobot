@@ -71,14 +71,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey hi {}, I'm {}!
+Hello,Telegram User {}, I'm {}!
 I am an Anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities,Do /help to see all commands 
+Built by weebs for weebs, I specialize in managing anime eccentric communities,Do /help to see all commands!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Titan-Shifting Group Management Bot and help admins manage their groups with My Titan Powers! Have a look at the following for an idea of some of \
+Hello there! My name is *{}*.
+I am a bot that wants You To Know That Those Who Do Not Understand True Pain Can Never Understand True Peace. I help admins manage their groups with Shinra Tensei! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -97,9 +97,9 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/e82c53752a1e30d25f987.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/9127957b0437ed3a64332.jpg"
 
-DONATE_STRING = """Nah, No Need To Donate 😉."""
+DONATE_STRING = """Well, No Need To Donate."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add me",
+                                text="➕ Add Nagato To Your Group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -234,11 +234,11 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🧾 Getting Started",
+                                text="📕 Getting Started",
                                 url="https://t.me/foundingtitanupdates/4",
                             ),
                             InlineKeyboardButton(
-                                text="🗄 Source code",
+                                text="🤖 Source code",
                                 url="https://github.com/sasukeuchiha912/FoundingTitanRobot",
                             ),
                         ],
