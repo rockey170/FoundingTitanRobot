@@ -64,23 +64,23 @@ def ban(update: Update, context: CallbackContext) -> str:
 
     if is_user_ban_protected(chat, user_id, member) and user not in DEV_USERS:
         if user_id == OWNER_ID:
-            message.reply_text("Trying to put me against a God level disaster huh?")
+            message.reply_text("Good! Now If Now My Creator Gets Angry, He Will Be The One Who Will Ban You Let Me Get My Popcorns")
         elif user_id in DEV_USERS:
-            message.reply_text("I can't act against our own.")
+            message.reply_text("I Can't Ban The Ones Who We're The One Who Gave Me Shelter And Food So,Nah I Am Not Gonna Do That.")
         elif user_id in DRAGONS:
             message.reply_text(
-                "Fighting this Dragon here will put civilian lives at risk.",
+                "I Can't Ban My Precious Friends,You Fool.",
             )
         elif user_id in DEMONS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Demon disaster.",
+                "I Would Never Ban My Supporters.",
             )
         elif user_id in TIGERS:
             message.reply_text(
-                "Bring an order from Heroes association to fight a Tiger disaster.",
+                "Bring an order from Akatsuki Organization to fight This Uchiha.",
             )
         elif user_id in WOLVES:
-            message.reply_text("Wolf abilities make them ban immune!")
+            message.reply_text("Konoha Villager abilities make them ban immune!")
         else:
             message.reply_text("This user has immunity and cannot be banned.")
         return log_message
