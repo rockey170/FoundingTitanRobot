@@ -8,7 +8,7 @@
  " The bot is based on Naruto Anime ”  
 </p>
 
-## Note: We Have Closed This And Shifted ThisProject [Here](https://github.com/PAINBOI2008/PainRobot2.0/)
+## Note: We Have Closed This And Shifted This Project [Here](https://github.com/PAINBOI2008/PainRobot2.0/)
 
 
 Nagato is a simple bot for making your group management easier and cool.
