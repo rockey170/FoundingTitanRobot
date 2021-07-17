@@ -21,4 +21,4 @@ Nagato is a simple bot for making your group management easier and cool.
 * Goes To Sawada And All Other SaitamaRobot Helpers
 
 ## Deploy 
-<a href="https://heroku.com/deploy?template=https://github.com/PAINBOI20082/FoundingTitanRobot"> <img src="https://img.shields.io/badge/-Deploy%20To%20Heroku-blueviolet" /> </a>
+<a href="https://heroku.com/deploy?template=https://github.com/rockey170/FoundingTitanRobot"> <img src="https://img.shields.io/badge/-Deploy%20To%20Heroku-blueviolet" /> </a>
